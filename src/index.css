@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+.primaryButton{
+    @apply bg-sky-700 p-2 rounded-2xl hover:scale-110 transition;
+}
+}
