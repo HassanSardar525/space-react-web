@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaReact } from "react-icons/fa";
 import { FaShuttleSpace, FaSpaceAwesome ,FaSatellite } from "react-icons/fa6";
+import wave from "../assets/wave.gif";
 
 
 const ServiceData = [
@@ -49,7 +50,7 @@ const HeroCards = () => {
                 })}
 
             </div>
-            <img src="src\assets\wave.gif" alt=""
+            <img src={wave} alt=""
             className='-translate-y-24 h-[200px] w-full object-cover mix-blend-screen'  />
         </div>
     </section>

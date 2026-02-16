@@ -1,4 +1,7 @@
 import React from "react";
+import BgEarth from "../assets/earth-bg.mp4";
+import moonSurface from "../assets/moon-surface-hd.png";
+
 
 const Hero = () => {
   return (
@@ -21,7 +24,7 @@ const Hero = () => {
         </div>
       </div>
       <img
-        src="src\assets\moon-surface-hd.png"
+        src={moonSurface}
         alt=""
         className="absolute bottom-0 left-0 h-36 brightness-50   w-full "
       />

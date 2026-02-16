@@ -1,4 +1,5 @@
-import React from 'react'
+
+import sat2 from "../../assets/satelite2.jpg";
 
 
 const Banner2 = () => {
@@ -16,7 +17,7 @@ const Banner2 = () => {
                     </p>
                     <button className='primaryButton'>Learn More</button>
                 </div>
-                <img data-aos="zoom-in" data-aos-delay="300" src="src\assets\satelite2.jpg" alt="" 
+                <img data-aos="zoom-in" data-aos-delay="300" src={sat2} alt="" 
                 className='w-full sm:w-4/5 object-cover'/>
 
             </div>
